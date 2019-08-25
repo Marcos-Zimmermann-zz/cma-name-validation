@@ -1,0 +1,18 @@
+app.js  node_modules  package-lock.json  package.json
+# cat package.json
+{
+  "name": "hubspot-contacts-webhook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "*",
+    "request": "*",
+    "https": "*"
+  }
+}
